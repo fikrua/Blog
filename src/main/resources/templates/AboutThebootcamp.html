@@ -5,18 +5,58 @@
     <title>Title</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        .topnav {
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        /* Style the topnav links */
+        .topnav a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        /* Change color on hover */
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        body, html {
+            height: 100%;
+            margin: 0;
+        }
+
+        .bg {
+            /* The image used */
+            background-image: url("image/23.jpeg");
+
+            /* Full height */
+            height: 100%;
+
+            /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
 </head>
 <body>
-<div class="container">
-    <div class="p-3 mb-2 bg-dark text-white">
+
+    <div class="topnav">
         <h6><a href="/" > Home</a> <a href="AboutThebootcamp" > About boot camp</a>  <a href="/BlogAutors" > Blog author</a> </h6>
 
 
     </div>
-</div>
 
+    <div class="bg">
 
-<div class="container">
+        <div class="container">
+            <div class="p-3 mb-2 secondary text-black">
 
 <h3>Java Web Developer Boot Camp</h3>
     <p>The Java Web Developer Boot Camp is an 8 hour a day (9 am - 5 pm, M-F) 8-week, immersive software engineering program funded by the Department of Labor. This course aims to increase the number of skilled software developers in this country.
@@ -34,8 +74,8 @@
 
 </div>
 
-
-
+        </div>
+</div>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
